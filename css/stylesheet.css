@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Kasattack';
+    src: url('fonts/Kasattack-Regular.woff2') format('woff2'),
+        url('fonts/Kasattack-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ #top
+{
+    border: 1px solid black;
+    height: 50px;
+    width: 110%;
+    background: black;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+#title
+{
+    color: white;
+    font-family: Candara;
+    font-size: 30pt;
+    margin-left: 10px;
+
+}
+.logo
+{
+    border: none;
+    background: url(../images/menu/saguaro.png) no-repeat;
+    height: 50px;
+    width: 30px;
+    margin-left: 45px;
+}
+#menuButton
+{
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    margin-top: -45px;
+    margin-left: 4px;
+}
+.menuButton
+{
+    background: url(../images/menu/menubutton.png) no-repeat;
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+#menu
+{
+    border: 0px solid red;
+    height: 40px;
+    width: 900px;
+    font-family: Kasattack;
+    font-size: 30pt;
+    color: white;
+    margin-left: 50px;
+    margin-top: -42px;
+}
+#games
+{
+    border: 0px solid white;
+    height: 40px;
+    width: 150px;
+    margin-left: 40px;
+}
+#about
+{
+    border: 0px solid red;
+    height: 40px;
+    width: 150px;
+    margin-left: 210px;
+    margin-top: -40px;
+}
+#support
+{
+    border: 0px solid red;
+    height: 40px;
+    width: 150px;
+    margin-left: 380px;
+    margin-top: -40px;
+}
+.dropDownButton
+{
+    background: url(../images/menu/dropDownbutton.png) no-repeat;
+    height: 20px;
+    width: 30px;
+    border: 0px solid red;
+    margin-left: 132px;
+    margin-top: -20px;
+}
+
