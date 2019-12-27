@@ -5,7 +5,11 @@
     font-weight: normal;
     font-style: normal;
 }
- #top
+body
+{
+    min-width: 
+}
+#top
 {
     border: 1px solid black;
     height: 50px;
@@ -55,6 +59,7 @@
     color: white;
     margin-left: 50px;
     margin-top: -42px;
+    position: relative;
 }
 #games
 {
@@ -79,6 +84,66 @@
     margin-left: 380px;
     margin-top: -40px;
 }
+#subscribe
+{
+    border: 0px solid red;
+    height: 40px;
+    width: 150px;
+    margin-left: 590px;
+    margin-top: -40px;   
+}
+#socialMedia
+{
+    border: 0px solid red;
+    height: 40px;
+    width: 220px;
+    margin-left: calc(75vw/2 + 1010px/ 2);
+    margin-top: -40px;
+    
+}
+#twitter
+{
+    border: 1px solid black;
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+#instagram
+{
+    border: 1px solid black;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-left: 42px;
+    margin-top: -42px;
+}
+#facebook
+{
+    border: 1px solid black;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-left: 84px;
+    margin-top: -42px;
+}
+#linkedin
+{
+    border: 1px solid black;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-left: 126px;
+    margin-top: -42px;
+}
+#snapchat
+{
+    border: 1px solid black;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-left: 168px;
+    margin-top: -42px;
+}
 .dropDownButton
 {
     background: url(../images/menu/dropDownbutton.png) no-repeat;
@@ -87,5 +152,11 @@
     border: 0px solid red;
     margin-left: 132px;
     margin-top: -20px;
+}
+.socialButtons
+{
+    height: 40px;
+    width: 40px;
+    border: none;
 }
 
