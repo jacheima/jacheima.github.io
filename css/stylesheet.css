@@ -15,13 +15,14 @@ body
     height: 50px;
     width: 110%;
     background: black;
-    margin-left: -8px;
-    margin-top: -8px;
+    left: -5px;
+    top: 0px;
+    position: fixed;
 }
 #title
 {
     color: white;
-    font-family: Candara;
+    font-family: Kasattack;
     font-size: 30pt;
     margin-left: 10px;
 
@@ -58,7 +59,7 @@ body
     font-size: 30pt;
     color: white;
     margin-left: 50px;
-    margin-top: -42px;
+    top: -42px;
     position: relative;
 }
 #games
@@ -159,4 +160,50 @@ body
     width: 40px;
     border: none;
 }
-
+#spacer
+{
+    border: 0px solid black;
+    height: 20px;;
+    margin-top: 50px;
+    margin-left: -8px;
+    width: 110%;
+}
+#featured
+{
+    border: 0px solid black;
+    height: 600;
+    width: 100%;
+    margin-left: -8px;
+    margin-top: 52px;
+}
+#largeLogo
+{
+    border: 1px solid red;
+    height: 87px;
+    margin-left: 10px;
+    top: 80px;
+}
+.largeLogo
+{
+    background: url(../images/SaguaroGames.png) no-repeat;
+    height: 150px;
+    width: 93px;
+    border: none;
+}
+#featuredGames
+{
+    border: 1px solid black;
+    height: 600px;
+    width: 110%;
+    margin-left: -8px;
+    margin-top: -50px;
+}
+#featuredGamesTitle
+{
+    border: 1px solid black;
+    height: 60px;
+    width: 400px;
+    margin: 0 auto;
+    font-family: Kasattack;
+    color: black;
+}
