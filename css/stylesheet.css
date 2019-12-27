@@ -5,6 +5,23 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Adventure Subtitles';
+    src: url('fonts/AdventureSubtitles.woff2') format('woff2'),
+        url('fonts/AdventureSubtitles.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ander Hedge';
+    src: url('fonts/AnderHedgeRegular.woff2') format('woff2'),
+        url('fonts/AnderHedgeRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body
 {
     min-width: 
@@ -55,7 +72,7 @@ body
     border: 0px solid red;
     height: 40px;
     width: 900px;
-    font-family: Kasattack;
+    font-family: Ander Hedge;
     font-size: 30pt;
     color: white;
     margin-left: 50px;
@@ -74,7 +91,7 @@ body
     border: 0px solid red;
     height: 40px;
     width: 150px;
-    margin-left: 210px;
+    margin-left: 180px;
     margin-top: -40px;
 }
 #support
@@ -82,7 +99,7 @@ body
     border: 0px solid red;
     height: 40px;
     width: 150px;
-    margin-left: 380px;
+    margin-left: 310px;
     margin-top: -40px;
 }
 #subscribe
@@ -90,7 +107,7 @@ body
     border: 0px solid red;
     height: 40px;
     width: 150px;
-    margin-left: 590px;
+    margin-left: 470px;
     margin-top: -40px;   
 }
 #socialMedia
@@ -151,8 +168,7 @@ body
     height: 20px;
     width: 30px;
     border: 0px solid red;
-    margin-left: 132px;
-    margin-top: -20px;
+    margin-top: -27px;
 }
 .socialButtons
 {
@@ -200,10 +216,13 @@ body
 }
 #featuredGamesTitle
 {
-    border: 1px solid black;
-    height: 60px;
-    width: 400px;
+    border: 0px solid black;
+    height: 90px;
+    width: 800px;
     margin: 0 auto;
-    font-family: Kasattack;
+    font-family: Ander Hedge;
     color: black;
+    text-align: center;
+    font-size: 35pt;
+    line-height: 1.75;
 }
