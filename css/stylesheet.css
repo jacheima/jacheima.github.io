@@ -188,9 +188,14 @@ body
 {
     border: 0px solid black;
     height: 600;
-    width: 100%;
+    width: 110%;
     margin-left: -8px;
     margin-top: 52px;
+    font-family: Ander Hedge;
+    text-align: center;
+    font-size: 50pt;
+    line-height: 8;
+    background: #67c4a3;
 }
 #largeLogo
 {
@@ -208,11 +213,10 @@ body
 }
 #featuredGames
 {
-    border: 1px solid black;
-    height: 600px;
+    border: 0px solid black;
+    height: 635px;
     width: 110%;
     margin-left: -8px;
-    margin-top: -50px;
 }
 #featuredGamesTitle
 {
@@ -225,4 +229,37 @@ body
     text-align: center;
     font-size: 35pt;
     line-height: 1.75;
+}
+.lineSeperator
+{
+    height: 5px;
+    width: 400px;
+    margin: 0 auto;
+    border: 0px solid green;
+    background: url(../images/formating/line-seperator.png);
+}
+#featuredBoxes
+{
+    border: 0px solid black;
+    height: 535px;
+    width: 75%;
+    position: relative;
+    margin: 5 auto;
+}
+.featuredGameBox
+{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin: 10 auto;
+
+}
+td
+{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    font-family: Ander Hedge;
 }
