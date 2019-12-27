@@ -1,8 +1,71 @@
 <html>
     <head>
         <title>Saguaro Game Studios</title>
+        <style type = "text/css">
+            #top
+            {
+                border: 1px solid black;
+                height: 50px;
+                width: 110%;
+                background: black;
+                margin-left: -8px;
+                margin-top: -8px;
+            }
+            #title
+            {
+                color: white;
+                font-family: Candara;
+                font-size: 30pt;
+                margin-left: 10px;
+                
+            }
+            #menuButton
+            {
+                border: 1px solid black;
+                height: 40px;
+                width: 40px;
+                margin-top: 4px;
+                margin-left: 4px;
+            }
+            .menuButton
+            {
+                background: url(images/menubutton.png) no-repeat;
+                height: 40px;
+                width: 40px;
+                border: none;
+                
+            }
+            #games
+            {
+                border: 1px solid red;
+                height: 40px;
+                width: 200px;
+                margin-top: -42px;
+                color: white;
+                padding: -1px;
+                font-family: Candara, sans-serif;
+                margin-left: 50px;
+                font-size: 25pt;
+            }
+            .dropDownButton
+            {
+                background: url(images/dropDownbutton.png) no-repeat;
+                height: 20px;
+                width: 20px;
+                border: none;
+            }
+        </style>
     </head>
     <body>
-        Saguaro Game Studios 
+        <div id = "top">
+            <div id = "menuButton">
+                <input type="button" class = "menuButton" />
+            </div>
+            <div id = "games">
+                Games
+                &nbsp;
+                <input type="button" class = "dropDownButton" />
+            </div>
+        </div>
     </body>
 </html>
