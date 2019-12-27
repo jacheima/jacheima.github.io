@@ -214,9 +214,10 @@ body
 #featuredGames
 {
     border: 0px solid black;
-    height: 635px;
+    height: 690px;
     width: 110%;
     margin-left: -8px;
+    background: #e7e7e7;
 }
 #featuredGamesTitle
 {
@@ -255,11 +256,129 @@ body
     margin: 10 auto;
 
 }
-td
+#featuredGamesTd
 {
     border: 1px solid black;
     height: 250px;
     width: 250px;
     text-align: center;
     font-family: Ander Hedge;
+    background: #e38946;
+}
+#gamesButton
+{
+    border: 0px solid black;
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+}
+.gamesButton
+{
+    border: none;
+    height: 40px;
+    width: 150px;
+    background: url(../images/grey_button.png) no-repeat;
+    font-family: Ander Hedge;
+    font-size: 15pt;
+}
+#latestUpdates
+{
+    border: 0px solid black;
+    height: 800px;
+    width: 110%;
+    margin-left: -8px;
+    margin-top: 0px;
+}
+#latestUpdatesTitle
+{
+    border: 0px solid black;
+    height: 90px;
+    width: 800px;
+    margin: 0 auto;
+    font-family: Ander Hedge;
+    color: black;
+    text-align: center;
+    font-size: 35pt;
+    line-height: 1.75;
+}
+#updatesBox
+{
+    border: 0px solid black;
+    height: 735px;
+    width: 75%;
+    position: relative;
+    margin: 5 auto; 
+}
+#latestUpdatesTd
+{
+    border: 0px solid black;
+    width: 250px;
+    height: 365px;
+    margin: 0 auto;
+}
+#updatesButton
+{
+    border: 0px solid black;
+    height: 40px;
+    width: 150px;
+    margin: 20 auto;
+    
+}
+.updateButton
+{
+    border: none;
+    margin: auto;
+    height: 40px;
+    width: 150px;
+    background: url(../images/button.png) no-repeat;
+    font-family: Ander Hedge;
+    font-size: 15pt;
+}
+#updateImage
+{
+    border: 0px solid black;
+    height: 150px;
+    width: 250px;
+    margin-top: -182px;
+    margin-left: -1px;
+    background: #b24825;
+    position: absolute;
+    text-align: center;
+    line-height: 9;
+    font-family: Ander Hedge;
+}
+#updatesDate
+{
+    border: 0px solid black;
+    height: 25px;
+    width: 250px;
+    margin-top: -30px;
+    margin-left: -1px;
+    position: absolute;
+    text-align: left;
+    font-family: Ander Hedge;
+    padding: 3px;
+    
+}
+#updatesTitle
+{
+    border: 0px solid black;
+    height: 45px;
+    width: 250px;
+    margin-top: 0px;
+    margin-left: -1px;
+    position: absolute;
+    font-family: Ander Hedge;
+    font-size: 20pt;
+}
+#updatesInfo
+{
+    border: 0px solid black;
+    height: 180px;
+    width: 250px;
+    position: absolute;
+    margin-left: -1px;
+    margin-top: 45px;
+    font-family: Ander Hedge;
+    font-size: 15pt;
 }
