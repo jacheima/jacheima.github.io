@@ -385,7 +385,7 @@ a
     border: 0px solid white;
     height: 60px;
     width: 150px;
-    margin-left: 240px;
+    margin-left: 225px;
     text-align: center;
 }
 #press
@@ -393,7 +393,7 @@ a
     border: 0px solid white;
     height: 60px;
     width: 150px;
-    margin-left: 350px;
+    margin-left: 335px;
     margin-top: -62px;
     text-align: center;
 }
@@ -402,7 +402,7 @@ a
     border: 0px solid white;
     height: 60px;
     width: 150px;
-    margin-left: 460px;
+    margin-left: 445px;
     margin-top: -62px;
     text-align: center;
 }
@@ -411,7 +411,7 @@ a
     border: 0px solid white;
     height: 60px;
     width: 150px;
-    margin-left: 590px;
+    margin-left: 575px;
     margin-top: -62px;
     text-align: center;
     
@@ -443,10 +443,10 @@ a
     text-align: center;
     font-family: Ander Hedge;
     color: white;
-    font-size: 15pt;
+    font-size: 12pt;
     position: relative;
-    margin-left: 240px;
-    margin-top: 150px;
+    margin-left: 225px;
+    margin-top: 50px;
 }
 #thirdAbout
 {
@@ -456,9 +456,9 @@ a
     text-align: center;
     font-family: Ander Hedge;
     color: white;
-    font-size: 15pt;
+    font-size: 12pt;
     position: relative;
-    margin-left: 330px;
+    margin-left: 300px;
     margin-top: -20px;
 }
 #thirdSupport
@@ -469,9 +469,9 @@ a
     text-align: center;
     font-family: Ander Hedge;
     color: white;
-    font-size: 15pt;
+    font-size: 12pt;
     position: relative;
-    margin-left: 410px;
+    margin-left: 360px;
     margin-top: -20px;
 }
 #subscriptionUpdate
@@ -482,9 +482,9 @@ a
     text-align: center;
     font-family: Ander Hedge;
     color: white;
-    font-size: 15pt;
+    font-size: 12pt;
     position: relative;
-    margin-left: 525px;
+    margin-left: 470px;
     margin-top: -20px;   
 }
 #fourth
@@ -504,6 +504,8 @@ a
     font-family: Ander Hedge;
     font-size: 10pt;
     color: white;
+    margin-top: -10px;
+    margin-left: -15px;
 }
 #userAgreement
 {
@@ -514,7 +516,7 @@ a
     font-size: 10pt;
     color: white;
     margin-top: -20px;
-    margin-left: 50px;
+    margin-left: 35px;
     
 }
 #privacyPolicy
@@ -537,69 +539,16 @@ a
     font-family: Ander Hedge;
     color: white;
     font-size: 10pt;
-    margin-left: 265px;
+    margin-left: 250px;
+    margin-top: -20px;
 }
-.dropDown
+
+#connect
 {
-    border: 0px solid black;
-    height:90px;
-    width: 200;
-    padding: 5px;
-    margin-top: 5px;
-    position: fixed;
-    display: inline-block;
-}
-#gamesDropDown
-{
-    text-align: left;
-    height: 120px;
-    width: 250px;
-    border: 0px solid black;
-    background: white;
-    opacity: 80%;
+    border: 0px solid white;
+    height: 90px;
+    width: 800px;
     position: relative;
-    z-index: 1;
-    min-width: 200px;
-    display: block;
-    margin-left: 35px;
-    margin-top: -4px;
-}
-#aboutDropDown
-{
-    text-align: left;
-    height: 120px;
-    width: 250px;
-    border: 0px solid black;
-    background: white;
-    opacity: 80%;
-    position: relative;
-    z-index: 1;
-    min-width: 200px;
-    display: none;
-    margin-left: 175px;
-    margin-top: -4px;
-}
-.dropDownContent a
-{
-    color: black;
-    font-size: 18pt;
-    text-decoration: none;
-    font-family: Ander Hedge;
-    display: block;
-    padding: 5px;
-    z-index: 3;
-    
-}
-.dropDownContent a:hover
-{
-    color: #e38a46;
-}
-.button
-{
-    background: white;
-    opacity: 100%;
-    border: none;
-    font-family: Ander Hedge;
-    color: black;
-    font-size: 15pt;
+    margin-left: 240px;
+    margin-top: 30px;
 }
