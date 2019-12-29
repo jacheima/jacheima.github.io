@@ -1,181 +1,177 @@
 @font-face {
-    font-family: 'Kasattack';
-    src: url('fonts/Kasattack-Regular.woff2') format('woff2'),
-        url('fonts/Kasattack-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Adventure Subtitles';
-    src: url('fonts/AdventureSubtitles.woff2') format('woff2'),
-        url('fonts/AdventureSubtitles.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Ander Hedge';
     src: url('fonts/AnderHedgeRegular.woff2') format('woff2'),
         url('fonts/AnderHedgeRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
-body
+a
 {
-    overflow-x: hidden;
+    text-decoration: none;
 }
-
-#title
-{
-    color: white;
-    font-family: Kasattack;
-    font-size: 30pt;
-    margin-left: 10px;
-
-}
-.logo
-{
-    border: none;
-    background: url(../images/menu/saguaro.png) no-repeat;
-    height: 50px;
-    width: 30px;
-    margin-left: 45px;
-}
-#menuButton
+#top
 {
     border: 1px solid black;
-    height: 40px;
-    width: 40px;
-    margin-top: -45px;
-    margin-left: 4px;
+    height: 50px;
+    width: 110%;
+    background: black;
+    left: -5px;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
 }
-.menuButton
+#sideMenuButton
 {
-    background: url(../images/menu/menubutton.png) no-repeat;
+    margin-top: 3px;
+    border: 0px solid white;
     height: 40px;
     width: 40px;
-    border: none;
+    position: relative;
+}
+#logo
+{
+    margin-left: 40px;
+    margin-top: -42px;
+    position: relative;
+    height: 50px;
+    width: 30px;
+    border: 0px solid white
 }
 #menu
 {
     border: 0px solid red;
-    height: 40px;
-    width: 900px;
-    font-family: Ander Hedge;
-    font-size: 30pt;
+    margin-top: -42px;
+    margin-left: 80px;
+}
+.gamesDropButton
+{
+    background-color: black;
     color: white;
-    margin-left: 50px;
-    top: -42px;
-    position: relative;
-}
-#games
-{
-    border: 0px solid white;
-    height: 40px;
-    width: 130px;
-    margin-left: 40px;
-    background: url(../images/menu/dropDownButton_1.png)
-}
-#about
-{
-    border: 0px solid red;
-    height: 40px;
-    width: 150px;
-    margin-left: 180px;
-    margin-top: -40px;
-}
-#support
-{
-    border: 0px solid red;
-    height: 40px;
-    width: 150px;
-    margin-left: 310px;
-    margin-top: -40px;
-}
-#subscribe
-{
-    border: 0px solid red;
-    height: 40px;
-    width: 150px;
-    margin-left: 470px;
-    margin-top: -40px;   
-}
-#socialMedia
-{
-    border: 0px solid red;
-    height: 40px;
-    width: 220px;
-    margin-left: calc(75vw/2 + 1010px/ 2);
-    margin-top: -40px;
-    
-}
-#twitter
-{
+    font-size: 25pt;
     border: 1px solid black;
-    position: relative;
-    height: 40px;
-    width: 40px;
+    font-family: Ander Hedge;
+
 }
-#instagram
+.gamesdropdown
 {
+    position: relative;
+    display: inline-block;
+}
+.gamesdropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rbga(0,0,0, 0.2);
+    z-index: 1;
+    font-family: Ander Hedge;
+    font-size: 15pt;
+}
+.gamesdropdown-content a
+{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.gamesdropdown-content a:hover
+{
+    color: #E38A46;
+}
+.gamesdropdown:hover .gamesdropdown-content
+{
+    display: block;
+}
+.aboutDropButton
+{
+    background-color: black;
+    color: white;
+    font-size: 25pt;
     border: 1px solid black;
-    position: relative;
-    height: 40px;
-    width: 40px;
-    margin-left: 42px;
-    margin-top: -42px;
+    font-family: Ander Hedge;
+
 }
-#facebook
+.aboutdropdown
 {
+    position: relative;
+    display: inline-block;
+}
+.aboutdropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rbga(0,0,0, 0.2);
+    z-index: 1;
+    font-family: Ander Hedge;
+    font-size: 15pt;
+}
+.aboutdropdown-content a
+{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.aboutdropdown-content a:hover
+{
+    color: #E38A46;
+}
+.aboutdropdown:hover .aboutdropdown-content
+{
+    display: block;
+}
+.supportDropButton
+{
+    background-color: black;
+    color: white;
+    font-size: 25pt;
     border: 1px solid black;
-    position: relative;
-    height: 40px;
-    width: 40px;
-    margin-left: 84px;
-    margin-top: -42px;
+    font-family: Ander Hedge;
+
 }
-#linkedin
+.supportdropdown
 {
+    position: relative;
+    display: inline-block;
+}
+.supportdropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rbga(0,0,0, 0.2);
+    z-index: 1;
+    font-family: Ander Hedge;
+    font-size: 15pt;
+}
+.supportdropdown-content a
+{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.supportdropdown-content a:hover
+{
+    color: #E38A46;
+}
+.supportdropdown:hover .supportdropdown-content
+{
+    display: block;
+}
+.subscribe
+{
+    background-color: black;
+    color: white;
+    font-size: 25pt;
     border: 1px solid black;
-    position: relative;
-    height: 40px;
-    width: 40px;
-    margin-left: 126px;
-    margin-top: -42px;
+    font-family: Ander Hedge;
 }
-#snapchat
-{
-    border: 1px solid black;
-    position: relative;
-    height: 40px;
-    width: 40px;
-    margin-left: 168px;
-    margin-top: -42px;
-}
-.dropDownButton
-{
-    background: url(../images/menu/dropDownbutton.png) no-repeat;
-    height: 20px;
-    width: 30px;
-    border: 0px solid red;
-    margin-top: -27px;
-}
-.socialButtons
-{
-    height: 40px;
-    width: 40px;
-    border: none;
-}
-#spacer
-{
-    border: 0px solid black;
-    height: 20px;;
-    margin-top: 50px;
-    margin-left: -8px;
-    width: 110%;
-}
+
 #featured
 {
     border: 0px solid black;
@@ -188,20 +184,6 @@ body
     font-size: 50pt;
     line-height: 8;
     background: #67c4a3;
-}
-#largeLogo
-{
-    border: 1px solid red;
-    height: 87px;
-    margin-left: 10px;
-    top: 80px;
-}
-.largeLogo
-{
-    background: url(../images/SaguaroGames.png) no-repeat;
-    height: 150px;
-    width: 93px;
-    border: none;
 }
 #featuredGames
 {
@@ -238,15 +220,6 @@ body
     width: 75%;
     position: relative;
     margin: 5 auto;
-}
-.featuredGameBox
-{
-    border: 1px solid black;
-    height: 250px;
-    width: 250px;
-    position: relative;
-    margin: 10 auto;
-
 }
 #featuredGamesTd
 {
@@ -630,9 +603,3 @@ body
     color: black;
     font-size: 15pt;
 }
-
-
-
-
-
-
