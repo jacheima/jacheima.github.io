@@ -1,0 +1,21 @@
+#featured
+{
+    border: 0px solid black;
+    height: 400px;
+    width: 110%;
+    margin-left: -8px;
+    margin-top: 52px;
+    font-family: Ander Hedge;
+    text-align: center;
+    font-size: 50pt;
+    line-height: 5;
+    background: #67c4a3;
+}
+#banner
+{
+    border: 1px solid red;
+    height: 100px;
+    width: 110%;
+    margin-left: -8px;
+    background-color: #692915;
+}

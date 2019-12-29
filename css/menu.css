@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'Ander Hedge';
+    src: url('fonts/AnderHedgeRegular.woff2') format('woff2'),
+        url('fonts/AnderHedgeRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#top
+{
+    border: 1px solid black;
+    height: 50px;
+    width: 110%;
+    background: black;
+    left: -5px;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+}
+#sideMenuButton
+{
+    margin-top: 3px;
+    border: 0px solid white;
+    height: 40px;
+    width: 40px;
+    position: relative;
+}
+#logo
+{
+    margin-left: 40px;
+    margin-top: -42px;
+    position: relative;
+    height: 50px;
+    width: 30px;
+    border: 0px solid white
+}
+#menu
+{
+    border: 0px solid red;
+    margin-top: -42px;
+    margin-left: 80px;
+}
+.gamesDropButton
+{
+    background-color: black;
+    color: white;
+    font-size: 25pt;
+    border: 1px solid black;
+    font-family: Ander Hedge;
+
+}
+.gamesdropdown
+{
+    position: relative;
+    display: inline-block;
+}
+.gamesdropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rbga(0,0,0, 0.2);
+    z-index: 1;
+    font-family: Ander Hedge;
+    font-size: 15pt;
+}
+.gamesdropdown-content a
+{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.gamesdropdown-content a:hover
+{
+    color: #E38A46;
+}
+.gamesdropdown:hover .gamesdropdown-content
+{
+    display: block;
+}
+.aboutDropButton
+{
+    background-color: black;
+    color: white;
+    font-size: 25pt;
+    border: 1px solid black;
+    font-family: Ander Hedge;
+
+}
+.aboutdropdown
+{
+    position: relative;
+    display: inline-block;
+}
+.aboutdropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rbga(0,0,0, 0.2);
+    z-index: 1;
+    font-family: Ander Hedge;
+    font-size: 15pt;
+}
+.aboutdropdown-content a
+{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.aboutdropdown-content a:hover
+{
+    color: #E38A46;
+}
+.aboutdropdown:hover .aboutdropdown-content
+{
+    display: block;
+}
+.supportDropButton
+{
+    background-color: black;
+    color: white;
+    font-size: 25pt;
+    border: 1px solid black;
+    font-family: Ander Hedge;
+
+}
+.supportdropdown
+{
+    position: relative;
+    display: inline-block;
+}
+.supportdropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rbga(0,0,0, 0.2);
+    z-index: 1;
+    font-family: Ander Hedge;
+    font-size: 15pt;
+}
+.supportdropdown-content a
+{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.supportdropdown-content a:hover
+{
+    color: #E38A46;
+}
+.supportdropdown:hover .supportdropdown-content
+{
+    display: block;
+}
+.subscribe
+{
+    background-color: black;
+    color: white;
+    font-size: 25pt;
+    border: 1px solid black;
+    font-family: Ander Hedge;
+}
+
+#bottomMenu
+{
+    border: 1px solid black;
+    height: 350px;
+    width: 110%;
+    margin-left: -8px;
+    background: black
+}
+#topBottom
+{
+    border: 0px solid red;
+    height: 150px;
+    width: 110%;
+    margin-left: -8px;
+    background: black;
+}
+#secondMenu
+{
+    border: 0px solid yellow;
+    height: 60px;
+    width: 110%;
+    margin-left: -8px;
+    font-family: Ander Hedge;
+    color: white;
+    line-height: 3;
+    font-size: 16pt;
+}
+#executives
+{
+    border: 0px solid white;
+    height: 60px;
+    width: 150px;
+    margin-left: 225px;
+    text-align: center;
+}
+#press
+{
+    border: 0px solid white;
+    height: 60px;
+    width: 150px;
+    margin-left: 335px;
+    margin-top: -62px;
+    text-align: center;
+}
+#investors
+{
+    border: 0px solid white;
+    height: 60px;
+    width: 150px;
+    margin-left: 445px;
+    margin-top: -62px;
+    text-align: center;
+}
+#playtesting
+{
+    border: 0px solid white;
+    height: 60px;
+    width: 150px;
+    margin-left: 575px;
+    margin-top: -62px;
+    text-align: center;
+    
+}
+#bottomLogo
+{
+    border: 0px solid white;
+    height: 320px;
+    width: 400px;
+    margin-top: -130px;
+    background: url(../images/SaguaroGameSutdios.png) no-repeat;
+    margin-left: 20px;
+}
+#whiteSeperator
+{
+    border: 1px solid white;
+    height: 2px;
+    width: 1000px;
+    margin-left: 240px;
+    margin-top: -290px;
+    background: url(../images/formating/whiteSeperator.png) no-repeat;
+    position: relative;
+}
+#browseGames
+{
+    border: 0px solid black;
+    height: 20px; 
+    width: 150px;
+    text-align: center;
+    font-family: Ander Hedge;
+    color: white;
+    font-size: 12pt;
+    position: relative;
+    margin-left: 225px;
+    margin-top: 50px;
+}
+#thirdAbout
+{
+    border: 0px solid black;
+    height: 20px; 
+    width: 150px;
+    text-align: center;
+    font-family: Ander Hedge;
+    color: white;
+    font-size: 12pt;
+    position: relative;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+#thirdSupport
+{
+    border: 0px solid black;
+    height: 20px; 
+    width: 150px;
+    text-align: center;
+    font-family: Ander Hedge;
+    color: white;
+    font-size: 12pt;
+    position: relative;
+    margin-left: 360px;
+    margin-top: -20px;
+}
+#subscriptionUpdate
+{
+ border: 0px solid black;
+    height: 20px; 
+    width: 150px;
+    text-align: center;
+    font-family: Ander Hedge;
+    color: white;
+    font-size: 12pt;
+    position: relative;
+    margin-left: 470px;
+    margin-top: -20px;   
+}
+#fourth
+{
+    border: 0px solid white;
+    height: 60px;
+    width: 500px;
+    position: relative;
+    margin-left: 265px;
+    margin-top: 30px;
+}
+#legal
+{
+    border: 0px solid white;
+    height: 20px;
+    width: 30px;
+    font-family: Ander Hedge;
+    font-size: 10pt;
+    color: white;
+    margin-top: -10px;
+    margin-left: -15px;
+}
+#userAgreement
+{
+    border: 0px solid white;
+    height: 20px;
+    width: 100px;
+    font-family: Ander Hedge;
+    font-size: 10pt;
+    color: white;
+    margin-top: -20px;
+    margin-left: 35px;
+    
+}
+#privacyPolicy
+{
+    border: 0px solid white;
+    height: 20px;
+    width: 100px;
+    font-family: Ander Hedge;
+    font-size: 10pt;
+    color: white;
+    margin-top: -20px;
+    margin-left: 150px;
+    
+}
+#copyRight
+{
+    border: 0px solid white;
+    height: 20px;
+    width: 200px;
+    font-family: Ander Hedge;
+    color: white;
+    font-size: 10pt;
+    margin-left: 250px;
+    margin-top: -20px;
+}
+
+#connect
+{
+    border: 0px solid white;
+    height: 90px;
+    width: 800px;
+    position: relative;
+    margin-left: 240px;
+    margin-top: 30px;
+}
