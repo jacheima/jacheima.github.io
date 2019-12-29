@@ -12,15 +12,23 @@
                 <input type="button" class = "menuButton" />
             </div>
             <div id = "menu">
-                <div id = "games">
+                <div id = "games" onmouseover="showGamesDropDown()" onmouseout="doNothing()">
                     Games
-                    <input type = "button" class = "dropDownButton" style="margin-left: -5px;" />
                 </div>
-                <div id = "about">
+                <div class="dropDown">
+                        <div id="gamesDropDown" class="gamesContent">
+                            <div id="gamesDropContent" >
+                                <a href="#">Browse Games</a>
+                                <a href="#">Library</a>
+                                <a href="#">Subscription Updates</a>
+                            </div>
+                        </div>
+                    </div>
+                <div id = "about" onmouseover="showAboutDropDown()">
                     About
                     <input type = "button" class = "dropDownButton" style = "margin-left: 85px"/>
                 </div>
-                <div id = "support">
+                <div id = "support" onmouseover="showSupportDropDown()">
                     Support
                     <input type = "button" class = "dropDownButton" style = "margin-left: 118px"/>
                 </div>
@@ -159,5 +167,17 @@
                 &copy; 2019 Saguaro Game Studios, LLC
             </div>
         </div>
+        
+        <script>
+            function showGamesDropDown()
+            {
+                document.getElementById("gamesDropDown").style.display = "block";
+                
+                 window.onclick = function(event){
+                    document.getElementById("gamesDropDown").style.display = "none";
+                }
+            }
+            
+        </script>
     </body>
 </html>

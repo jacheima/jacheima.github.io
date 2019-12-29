@@ -24,7 +24,7 @@
 
 body
 {
-    min-width: 
+    overflow-x: hidden;
 }
 #top
 {
@@ -86,6 +86,7 @@ body
     height: 40px;
     width: 150px;
     margin-left: 40px;
+    background: url(../images/menu/dropDownButton_1.png)
 }
 #about
 {
@@ -318,6 +319,7 @@ body
     height: 365px;
     margin: 0 auto;
     background: white;
+    box-shadow: 0px 8px 16px 0px rbga(0, 0, 0, 0.2);
     
 }
 #updatesButton
@@ -574,3 +576,39 @@ body
     font-size: 10pt;
     margin-left: 265px;
 }
+.dropDown
+{
+    border: 0px solid black;
+    height:90px;
+    width: 200;
+    padding: 5px;
+    margin-top: 5px;
+    position: fixed;
+    display: inline-block;
+
+    
+}
+#gamesDropDown
+{
+    
+    text-align: left;
+    height: 90px;
+    width: 200px;
+    border: 0px solid black;
+    background: white;
+    opacity: 80%;
+    position: relative;
+    z-index: 1;
+    min-width: 200px;
+    margin-top: -5px;
+    display: none;
+}
+#gamesDropContent a
+{
+    color: black;
+    font-size: 18pt;
+    text-decoration: none;
+    font-family: Ander Hedge;
+    display: block;
+}
+
