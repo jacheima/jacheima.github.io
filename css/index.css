@@ -437,7 +437,7 @@ a
 }
 #browseGames
 {
-    border: 1px solid black;
+    border: 0px solid black;
     height: 20px; 
     width: 150px;
     text-align: center;
@@ -450,7 +450,7 @@ a
 }
 #thirdAbout
 {
-    border: 1px solid black;
+    border: 0px solid black;
     height: 20px; 
     width: 150px;
     text-align: center;
@@ -463,7 +463,7 @@ a
 }
 #thirdSupport
 {
-    border: 1px solid black;
+    border: 0px solid black;
     height: 20px; 
     width: 150px;
     text-align: center;
@@ -476,7 +476,7 @@ a
 }
 #subscriptionUpdate
 {
- border: 1px solid black;
+ border: 0px solid black;
     height: 20px; 
     width: 150px;
     text-align: center;
