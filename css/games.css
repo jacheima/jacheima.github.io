@@ -13,9 +13,159 @@
 }
 #banner
 {
-    border: 1px solid red;
+    border: 1px solid #e38a46;
     height: 100px;
     width: 110%;
     margin-left: -8px;
-    background-color: #692915;
+    background-color: #e38a46;
+}
+.browseAll
+{
+    height: 40px;
+    width: 150px;
+    margin-left: 75%;
+    margin-top: 32px;
+}
+#gamesMenu
+{
+    border: 1px solid white;
+    height: 80px;
+    width: 110%;
+    margin-left:-8px;
+}
+#lineSeperator
+{
+    border: 1px solid #eaeaea;
+    height: 3px;
+    width: 110%;
+    margin-left: -8px;
+    background-color: #eaeaea;
+    margin-top: -1px;
+    position: relative;
+}
+#sortingOptions
+{
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.featuredGames
+{
+    position: relative;
+    display: inline-block;
+    margin-left: 10%;
+}
+.featuredButton
+{
+    background-color: white;
+    color: #aaaaaa;
+    padding: 10px;
+    font-size: 14pt;
+    border: none;
+}
+.featuredhighlight
+{
+    display: none;
+    position: absolute;
+    background-color: #1d8d42;
+    width: 145px;
+    height: 5px;
+    margin-left: 8px;
+    z-index: 1;
+}
+.featuredGames:hover .featuredhighlight
+{
+    display: block;
+}
+.allGames
+{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+.allGamesButton
+{
+    background-color: white;
+    color: #aaaaaa;
+    padding: 10px;
+    font-size: 14pt;
+    border: none;
+}
+.allGames:hover .allGamesHighlight
+{
+    display: block;
+}
+.allGamesHighlight
+{
+    display: none;
+    position: absolute;
+    background-color: #1d8d42;
+    width: 100px;
+    height: 5px;
+    margin-left: 5px;
+    z-index: 1;
+}
+.comingSoon
+{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+.comingSoonButton
+{
+    background-color: white;
+    color: #aaaaaa;
+    padding: 10px;
+    font-size: 14pt;
+    border: none;
+}
+.comingSoonHighlight
+{
+    display: none;
+    position: absolute;
+    background-color: #1d8d42;
+    width: 120px;
+    height: 5px;
+    margin-left: 10px;
+    z-index: 1;
+}
+.comingSoon:hover .comingSoonHighlight
+{
+    display: block;
+}
+#main
+{
+    border: 0px solid black;
+    height: auto;
+    width: 110%;
+    margin-left: -8px;
+}
+td
+{
+    border: 1px solid black;
+    height: 275px;
+    width: 275px;
+}
+table
+{
+    margin: 0 auto;
+    text-align: center;
+}
+#sectionHeader
+{
+    border: 0px solid black;
+    height: 60px;
+    width: 500px;
+    margin: auto;
+    font-family: Ander Hedge;
+    font-size: 30pt;
+    text-align: center;
+    line-height: 1.5;
+}
+#shortLineSeperator
+{
+    height: 5px;
+    width: 400px;
+    margin: 0 auto;
+    border: 0px solid green;
+    background: url(../images/formating/line-seperator.png);
 }
